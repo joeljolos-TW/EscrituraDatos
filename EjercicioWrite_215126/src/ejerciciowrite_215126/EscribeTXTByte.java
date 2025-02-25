@@ -18,7 +18,7 @@ import java.util.*;
 public class EscribeTXTByte {
     
     public static void main(String[] args) throws IOException {
-        EscribeFileChannel(ByteBuffer.wrap("QUE CHINGUE A SU MADRE EL AMERICA".getBytes()));
+        EscribeFileChannel(ByteBuffer.wrap(" ".getBytes()));
         LeeFileChannel();
         LeeDatosDat();
     }
